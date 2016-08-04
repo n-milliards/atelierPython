@@ -3,8 +3,7 @@
 * Fiche ressources sur les [bases de Python](ressourcesBasePython.md)
 * Fiche ressources sur les [fonctions de Pygame](ressourcesPygame.md)
 </br></br>
-* Feuille des [intitulés d'exercices](j1/exoJour1.md)
-</br></br>
+
 ***
 
 
@@ -13,8 +12,11 @@
 
 ***
 </br>
-**image pour exo pygame**
+**image pour pygame**
 
-![](https://autre.space/ressources/ateliers/pygame/image.png)
+* [images à télécharger](https://autre.space/ressources/ateliers/pygame/assets.zip)
 
-![](https://autre.space/ressources/ateliers/pygame/fond.png)
+* [images ++](https://autre.space/ressources/ateliers/pygame/plus.zip)
+
+
+
