@@ -1,226 +1,203 @@
+<!-- $theme: gaia -->
+<!-- template: invert -->
+<!-- $size: 16:9 -->
 
-Initiation à la programmation et réalisation d'un jeu vidéo en Python
----------------------------------------------------------------------
+<style type="text/css">
+html, body, div, p, slide, code { color:#f6f6f6; background: #222; }
+</style>
 
-### **Atelier 1**
+# Initiation à la programmation et réalisation d'un jeu vidéo avec Python
+
+### ==Atelier 1==
 
 
+---
 
-Welcome ! 
-========
+# ==Welcome !==
 
 ### Qui sommes-nous ?
 
-Alex A. + Nico C.
+- Alex & Nico
+	- Collectif n×10⁹ (n-milliards)
+	- Association HackStub
 
-n×10⁹
+### Et vous ?
 
-hackstub
+---
 
-### Qui êtes-vous ?
+# Disclaimer
 
+###### Volontairement ambitieux
+###### Condensé de 20~40h de cours+TP à la fac
+###### (_Ne partez pas en courant svp_ :smile:)
+###### <br />
+# ![](assets/brainMelting.jpg)
 
+---
 
-Disclaimer
-----------
+# Objectifs
 
-* **Ambitieux** : condensé de 20~40h de cours+TP à la fac
-
-* Vous êtes les **béta-testeurs** de cet atelier
-
-* (_Ne partez pas en courant svp_ :D)
-
-![](assets/brainMelting.jpg)
-
-
-
-Objectifs
-----------
-
-**1. Initiation générale à la programmation**
+#### Initiation générale à la programmation
 * Python
 
-**2. Réalisation d'un jeu vidéo**
-* Par vous-même ! (même si guidé)
-* Pygame
+#### Réalisation d'un jeu vidéo
+* Par vous-même ! (même si guidé·e·s)
+* D'abord en texte uniquement (text-based)
+* Puis en 2D avec Pygame (tile-based)
+
+---
+
+# Ayez confiance en vous
+
+# ![](assets/suckingAtSomething.jpg)
+
+---
+
+# Trompez-vous
+
+# ![](assets/yodaMistakes.jpg)
+
+---
+
+## Interrompez-nous,
+## posez-nous des questions !
+
+---
+
+# Fonctionnement des ateliers
+
+#### Séance 1
+- Au début, relativement marginal (alternance théorie/pratique)
+
+#### Séance 2, 3, 4
+- Support d'ateliers (memo + fiche d'étapes)
+
+#### ==Nous aiderons en priorité les moins avancé·e·s !==
+
+---
+
+# Déroulé des 4 séances
+
+##### Séance 1 - Les bases
+##### ![](assets/iKnowKungFu.jpg)
+
+---
+
+# Déroulé des 4 séances
+
+##### Séance 1 - Les bases
+##### Séance 1 et 2 - Jeu *text-based*
+##### ![](assets/textbased.png)
+
+---
+
+# Déroulé des 4 séances
+
+##### Séance 1 - Les bases
+##### Séance 1 et 2 - Jeu *text-based*
+##### Séance 3 - Utilisation de Pygame
+##### ![](assets/pygamelogo.png)
+
+---
+
+# Déroulé des 4 séances
+
+##### Séance 1 - Les bases
+##### Séance 1 et 2 - Jeu *text-based*
+##### Séance 3 - Utilisation de Pygame
+##### Séance 3 et 4 - Jeu 2D, *tile-based*
+##### ![](assets/zelda3.jpg)
+
+---
+
+# Aujourd'hui
+
+![](assets/matrix2.jpg)
+
+#### - Principes de base de la programmation
+#### - Exercices
+- Premier programme, les variables
+- les fonctions, les conditions
+- les boucles, les listes, les dictionnaires ...
+#### - Début d'un jeu « _text-based_ »
+
+---
+
+# Apprendre la programmation
+
+# ![](assets/learningProgramming.png)
 
 
+---
 
-Ayez confiance en vous
-----------------------
+# Apprendre la programmation
 
-![](assets/suckingAtSomething.jpg)
+#### Pas complètement facile,
+#### mais pas inaccessible non plus !
+#### ![](assets/yodaPatience.jpg)
 
+---
 
+# Programmer
+## ==
+# Écrire des recettes
 
-Trompez-vous
-------------
+---
 
-![](assets/yodaMistakes.jpg)
+# Écrire des recettes
 
-
-
-### Interrompez-nous,
-### posez-nous des questions ! 
-
-
-Fonctionnement de l'atelier
----------------------------
-
-* Alternance théorie / pratique (au moins le 1er jour)
-
-* 7~10 participants = ~beaucoup pour 2
-   * Support d'ateliers (memo + exos)
-   * On aidera en priorité les moins avancés
-
-
-
-Plan de l'atelier
------------------
-
-### Jour 1 - Les bases
-
-* Principes de base de la programmation
-* Utilisation de Python
-* Afficher une fenêtre et dessiner avec Pygame
-
-![](assets/iKnowKungFu.jpg)
-
-
-
-Plan de l'atelier
------------------
-
-### Jour 2 - Jeu vidéo minimal
-
-* Utiliser des classes
-* Notions de bases pour construire un jeu
-* Afficher une carte
-* Déplacer un personnage sur la carte
-
-![](assets/zelda.jpg)
-
-
-
-Plan de l'atelier
------------------
-
-### Jour 3 - Mécanique avancée
-
-* Jeu type _transport puzzle_
-* Interagir avec des objets
-* Décrire et vérifier les conditions de victoire
-
-![](assets/zelda2.jpg)
-
-
-
-![](assets/zelda2-nope.jpg)
-
-
-
-Aujourd'hui (jour 1)
------------
-
-![](assets/matrix.jpg)
-
-* Principes de base de la programmation
-* Exercices
-    1. premier programme, les variables
-    2. les fonctions
-    3. les conditions
-    4. les listes et les boucles
-* Débuts avec Pygame
-    * Afficher une fenêtre
-    * Dessiner des trucs et coller des images
-
-
-
-Principes de base de la programmation
-==================================
-
-
-
-![](assets/learningProgramming.png)
-
-
-
-**Pas complètement facile,** 
-
-**mais pas inaccessible non plus !**
-
-![](assets/yodaPatience.jpg)
-
-
-
-Programmer
-----------
-== 
---
-Écrire des recettes
--------------------
-
-
-
-Écrire des recettes
--------------------
-
-**Comme en cuisine !**
+### Comme en cuisine !
 
 * Préparer **des outils** et **des ingrédients**
 * Donner **des instructions**
 * ... parfois en utilisant **des "fonctions"**
     * _« monter des oeufs en neige »_
+    * _« cuire à thermostat 6 pendant 20 minutes »_
 
+---
 
+### Le cuisinier est stupide,
+### Il faudra penser à tout !
 
-**Le cuisinier est stupide,** 
+##### -
 
-**Il faudra penser à tout !**
+#### Pour bien écrire la recette,
+#### il faut s'imaginer être à sa place !
 
-Pour bien écrire la recette, 
+---
 
-il faut s'imaginer être à sa place ! 
+### Intérêt de l'apprentissage de la programmation
 
+###### Devenir acteur dans l'utilisation de sa machine (et de l'informatique en général)
+   - Avoir un sentiment de maîtrise de son outil
+   - S'ouvrir au possibilités offertes par la création informatique
 
+###### Retrouver un intérêt pour les maths :yum:
+   - Utiles dans les jeux videos (e.g. la trigonométrie)
+   - Concepts de progr. <-> concepts mathématiques
 
-Intérêt de l'apprentissage de la programmation
----------------------------------------------
+---
 
-* **Devenir acteur** dans l'utilisation de sa machine (et de l'informatique en général)
-    * et donc avoir un sentiment de maîtrise de son outil
-    * s'ouvrir au possibilités offertes par la création informatique
+## Contextes de programmation
 
-* **Retrouver un intérêt pour les maths** :)
-    * Utiles dans les jeux videos (e.g. la trigonométrie)
-    * Concepts de programmation <-> concepts mathématiques
+- **Décrire et programmer des pages web** (HTML / CSS / Javascript / PHP)
+- **Génération procedurale d'image / son** (Processing, MaxMSP, Super Collider, SVG, ...)
+- **Électronique** (Arduino, Assembleur / C / C++)
+- **Rédiger et formater des documents** (LaTeX)
+- **Administrer des serveurs** (ligne de commande)
+- ==**Programmation généraliste**== (C++, Java, Python, ...)
 
+---
 
+## Différents langages et niveaux d'abstraction
 
-Différents contextes de programmation
------------------------------------
-
-* **Décrire et programmer des pages web** (HTML / CSS / Javascript / PHP)
-* **Generation procedurale d'image / son** (Processing, MaxMSP, Super Collider, SVG, ...)
-* **Electronique** (Assembleur / C / C++)
-* **Rédiger et mettre en forme des documents textes** (LaTeX)
-* **Interagir avec un système d'exploitation** (ligne de commande / scripts bash)
-* **Programmation generaliste** (C++, Java, Python, ...)
-
-
-
-Différents langages et niveaux d'abstraction
-------------------------------------------
-
-Afficher « hello world! » en **Code machine**
+Afficher « hello world! » ==en **Code machine**==
 ```
-BA 10 
-01 B4 
-09 CD 
-21 30 
-E4 CD 
-16 B8 
-00 4C 
+09 CD
+21 30
+E4 CD
+16 B8
+00 4C
 CD 21 (he)
 48 65 (ll)
 6C 6C (o )
@@ -230,13 +207,12 @@ CD 21 (he)
 64    ($)
 ```
 
+---
 
+## Différents langages et niveaux d'abstraction
 
-Différents langages et niveaux d'abstraction
-------------------------------------------
-
-Afficher « hello world! » en **Assembleur**
-```
+Afficher « hello world! » ==en **Assembleur**==
+```asm
 org 100h
 mov dx, message
 mov ah, 09h
@@ -250,14 +226,13 @@ int 21h
 message db "hello world!$"
 ```
 
+---
 
+## Différents langages et niveaux d'abstraction
 
-Différents langages et niveaux d'abstraction
-------------------------------------------
+Afficher « hello world! » ==en **C**==
 
-Afficher « hello world! » en **C**
-
-```
+```C
 #include <stdio.h>
 
 int main(void)
@@ -267,218 +242,291 @@ int main(void)
 }
 ```
 
+---
 
 
 Différents langages et niveaux d'abstraction
 ------------------------------------------
 
-Afficher « hello world! » en **Python**
+Afficher « hello world! » ==en **Python**==
 
-```
+```python
 print("hello world!")
 ```
 
+---
 
+# Niveaux d'abstraction
 
-Niveaux d'abstraction
-----------------------
+##### ==Bas-niveau== : proche des petits détails techniques
 
-**Bas-niveau** 
-= 
-Proche des concepts de la machine
-
-* On peut tout faire
 * Meilleures performances
+* Il faut tout faire à la main !
 * Difficile à écrire, comprendre et débugger
 
-**Haut-niveau** 
-= 
-Proche des concepts humains
+##### ==Haut-niveau== : proche des concepts humains
 
 * Lisible et concis, facile à comprendre et débugger
-* Moins performant
-* Moins généraliste
+* Moins performant, moins généraliste (ex. HTML)
 
-_(Vocabulaire valable aussi pour la discussion des concepts de jeux vidéos)_
+---
 
+# La place de python
 
-
-La place de python
-------------------
-
-* **Généraliste mais simple** (moyen-niveau)
+* **Généraliste mais simple** (~moyen-niveau :yum:)
 * **Lisible !** (pas de superflu syntaxique)
 * **Facile pour les débutants** (pas trop "pédant")
-* **Très Versatile** (peut être utilisé pour faire des scripts, du son, du web, du calcul scientifique, ...)
+* **Très versatile** (peut être utilisé pour faire des scripts, du son, du web, du calcul scientifique, ...)
 
+---
 
-Projets réalisés en Python
--------------------------
+# Projets réalisés en Python
 
-* Atom
-* Blender
-* Dropbox
-* EVE Online
-* World of tanks
+##### -
+##### Atom
+##### Blender
+##### Dropbox
+##### EVE Online
+##### World of tanks
+##### ...
 
+---
 
+## Apprendre de la programmation
 
-Apprentissage de la programmation
------------------------------
+##### ==Processus d'apprentissage similaire à n'importe quelle langue==
 
-Processus d'apprentissage similaire à n'importe quelle langue : 
-
-0. **Concepts** (mots, utilisation, ...)
+0. **Concepts** (mots, verbes, phrases ...)
 1. **Grammaire et syntaxe**
 2. **Vocabulaire**
-3. **Organiser / structurer** sa rédaction et ses idées => organiser correctement son code et ses structures de données
+3. **Organiser** sa rédaction et ses idées : **structurer** correctement son code et ses données
 
+---
 
+### Rester calme,
+### patient·e, méthodique
 
-Rester calme, patient, méthodique
----------------------------------
+### -
 
-![](assets/keepcalm.png)
+### ![](assets/keepcalm.png)
 
+---
 
+### Découper les problèmes en plusieurs sous-tâches / étapes
 
-Découper les problèmes
-----------------------
-
-### en plusieurs sous-tâches / étapes
-
-Exemple : **Battre des oeufs en neige**
+##### Exemple : ==*Battre des oeufs en neige*==
 - Préparer un saladier et un ramequin
 - Prendre les oeufs
 - Un par un, casser les oeufs au-dessus du saladier en séparant le blanc des jaunes
 - Mettre les jaunes dans le ramequin
 - Saler les blancs
-- ...
+- etc ...
 
+---
 
-* séparer autant que possible la réflexion sur comment réaliser une tâche (algorithmie) ... et son écriture (syntaxe, grammaire, vocabulaire).
+### Ready, Steady,  Go !
 
+# -
 
+# ![](https://i.ytimg.com/vi/scfp7VHo-6s/hqdefault.jpg)
 
-Ready Steady Go
-===============
+---
 
-![](https://i.ytimg.com/vi/scfp7VHo-6s/hqdefault.jpg)
+# Check que tout le monde a
+# Atom / Python / etc
 
+---
 
+## Exercice 0 : utiliser le terminal
 
-Check que tout le monde a Atom / Python / etc
----------------------------------------------
-
-
-
-La ligne de commande
---------------------
-
-
-
-Exercice 1 : un premier programme
-------------------------------
-
-#### Ecrire un programme et le lancer 
-##### (sans trop comprendre ce qu'on fait mais ca va venir)
-
-Ouvrir un fichier et taper
-
-```python
-nom = input("Entrez un nom : ")
-message = "Bonjour " + nom + " !"
-
-print(message)
+Lister les fichiers dans le répertoire : `ls` (list)
+```sh
+ls -l
+----------------------------------------------------------
+-rw-r--r-- 1 alex alex  158 Nov  6 11:06 fichier1
+-rw-r--r-- 1 alex alex  666 Nov  6 11:06 conquerir_le_monde
+drw-r--r-- 1 alex alex 4096 Nov  6 11:06 super_dossier/
 ```
 
-Enregistrer le fichier sous un nom comme `programme.py`. Taper dans terminal : 
+Changer de répertoire : `cd` (==c==hange ==d==irectory)
 
 ```sh
-python programme.py
+cd super_dossier
 ```
 
+---
+
+## Exercice 0 : utiliser le terminal
+
+#### Aidez-vous de l'auto-completion, avec Tab !
+
+#### ![](assets/tabAllTheThings.jpeg)
+
+---
+
+## Exercice 0 : utiliser le terminal
+
+Arréter une commande en cours (Ctrl+C, comme _Cancel_)
+
+```
+<Ctrl+C>
+```
+
+---
+
+## Exercice 0 : utiliser le terminal
+
+#### -
+#### ACHTUNG !!!
+#### ==Faites attention à ce que vous dit le terminal !!!==
+
+---
 
 
-### Que s'est-il passé ?
+## Exercice 1 : un premier programme
+
+- ==Ecrire un programme et le lancer== *(sans trop comprendre ce qu'on fait, mais ça va venir :yum: !)*
+
+###### Ouvrir un fichier et taper :
+
+```python
+print("Salut !")
+print("Ça va ?")
+print("Comment t'appelles-tu ?")
+```
+
+###### Enregistrer le fichier sous un nom comme `programme.py`.
+###### Taper dans terminal :
+
+```sh
+python3 programme.py
+```
+
+---
+
+## Exercice 1 : un premier programme
+
+#### ==Que s'est-il passé ?==
+
+# ![](./assets/sorcery.jpeg)
+
+---
+
+## Exercice 1 : un premier programme
+
+#### ==Que s'est-il passé ?==
 
 * Nous avons lancé un programme en python
 
 * Les lignes ont été analysées et exécutée une par une, séquentiellement (langage interprété)
 
+* La commande `print` permet d'afficher un message dans le terminal
 
+---
 
-### Que fait ce programme ?
+## Exercice 2 : les variables
+
+- ==Stocker et utiliser de l'information dans des variables==
+
+###### Taper et lancer le programme suivant :
 
 ```python
-# Demander a l'utilisateur de taper quelque chose
-# et stocker le résultat dans une variable 'nom'
+message = "Je connais la réponse à la vie et l'univers !"
+reponse = 6 * 7
+
+print("Salut !")
+print(message)
+print(reponse)
+```
+
+---
+
+## Exercice 2 : un premier programme
+
+#### ==Que s'est-il passé ?==
+
+* Nous avons stocké des informations dans des variables
+
+* Nous avons réutilisé cette information plus tard
+
+Une variable peut être vue comme **une case mémoire, un tiroir, un récipient** qui peut contenir **une (ou plusieurs) information(s)**. Il est possible d'**accéder et modifier à volonté** le contenu d'une variable.
+
+---
+
+## Exercice 3 : Interactivité
+
+- ==Récupérer des informations données par l'utilisateur==
+
+###### Taper et lancer le programme suivant :
+
+```python
 nom = input("Entrez un nom : ")
+message = "-- Tut tut tut... Réveillez-vous " + nom + " !"
 
-# Concatener des chaines de caractères
-# et stocker le résultat dans une variable 'message'
-message = "Bonjour " + nom + " !"
-
-# Afficher le contenu de message a l'écran
 print(message)
 ```
 
+---
 
+## Exercice 3 : Interactivité
 
-### Premier concept fondamental : les variables
+#### ==Que s'est-il passé ?==
 
-Une variable peut être vue 
+* Nous avons demander à l'utilisateur de taper quelque chose
 
-comme **une case mémoire, un tiroir, un récipient** 
+* Nous avons stocké ce qu'il a tapé dans une variale
 
-... qui peut contenir **une (ou plusieurs) information(s)**.
+* Nous avons réutilisé cette variable (_concatenation de chaîne de caractères_)
 
-```python
-a = 3.14
-variable_super_cool = "Plop"
-schpof = (1, 2, 3)
-```
+---
 
+## Exercice 4 : Les fonctions
 
+- ==Donner un nom à un ensemble d'instructions==
 
-Exercice 2 : introduction des fonctions
-------------------------------------
-
-Ecrire et exécutez le programme suivant :
-```python
-def demanderUnNom() :
-    nom = input("Entrez un nom :")
-    return nom
-    
-print("Bonjour" + demanderUnNom() + "!")
-```
-
+###### Taper et lancer le programme suivant :
 
 
 ```python
-def demanderUnNom() :
-    nom = input("Entrez un nom :")
-    return nom
+def demander_nom():
+    reponse = input("Entrez un nom : ")
+    return reponse
+
+
+message = "-- Tut tut tut... Réveillez-vous " + demander_nom() + " !"
+
+print(message)
 ```
 
-### Explications
+---
 
-Nous avons créé une fonction nommée **demanderUnNom**. Pour ce faire : 
+## Exercice 4 : Les fonctions
+
+#### ==Que s'est-il passé ?==
+
+Nous avons créé une ==fonction==, nommée `demander_nom`.
+
 * nous utilisons le mot clé **def**
+
 * nous devons **indenter** chaque ligne qui est à l'intérieur de la fonction
+
 * nous pouvons déclarer et utiliser **des variables qui n'existent que dans le contexte de la fonction** (« variables locales »)
+
 * une fonction peut retourner une valeur en utilisant **return**
 
+---
 
+## Exercice 4 : Les fonctions
 
-### Intérêt
+#### ==Quel intérêt==
 
-Grace aux fonctions, nous pouvons
-* **éviter de répéter des suites d'instructions** que l'on utilise plusieurs fois (« battre des oeufs en neige »)
+Grace aux fonctions, nous pouvons :
+
+* **éviter de répéter des suites d'instructions** que l'on utilise plusieurs fois (« _battre des oeufs en neige_ »)
 * **donner un sens** à des suites d'instructions (par le nom qu'on lui donne)
 * **structurer le code** en séparant un problème en plusieurs étapes (= fonctions)
 
-
+---
 
 ### Variable locale & globale
 
@@ -493,388 +541,270 @@ print(prenom)
 print(nom)
 ```
 
+---
 
+## Exercice 5 : Les conditions
 
-### Arguments d'une fonction
+Les structures conditionnelles permettent d'adapter le comportement d'un programme si une condition est vraie ou fausse.
+
+#### Syntaxe en "pseudo-code" :
 
 ```python
-def demanderUnNom(messageDeDemande) :
-    nom = input(messageDeDemande)
-    return nom
-
-nom = demanderUnNom("Entrez un nom svp ! ")
-print("Bonjour" + nom + "!")
-```
-
-
-
-In case of emergency
--------------------
-
-![](assets/inCaseOfEmergency.png)
-
-Si vous ne savez plus ce que votre code fait, ou pour débugger, utilisez `print` pour afficher vos différentes variables pendant les étapes intermédiaires !
-
-
-
-Exercice 3 : les conditions
--------------------------
-
-* Les structures conditionnelles permettent d'adapter le comportement d'un programme si une condition est vraie ou fausse.
-
-Exemple : option cochée ou non dans un programme
-
-
-
-### La syntaxe en pseudo-code
-
-```
-SI (condition == True) ALORS
-  une_instruction()
-  ...
+SI(condition == True)
+ALORS
+   une_instruction()
+   une_autre_instruction()
 SINON
-  une_autre_instruction()
+   encore_une_autre_instruction()
 
 une_instruction_quoi_qu_il_arrive()
 ```
 
+---
 
+## Exercice 5 : Les conditions
 
-### La syntaxe en python
+Les structures conditionnelles permettent d'adapter le comportement d'un programme si une condition est vraie ou fausse.
+
+#### Syntaxe en python
 
 ```python
-if (condition == True) : 
-  print("La condition est vraie !")
-  
-else :
-  print("La condition est fausse !")
+condition = True
+
+if(condition == True):
+   print("La condition est vraie !")
+else:
+   print("La condition est fausse !")
 
 print("Ce message s'affiche quoi qu'il arrive")
 ```
 
-(attention à l'indentation !)
+###### (Attention à l'indentation !)
+
+---
 
 
+## Exercice 5 : Les conditions
 
-### Ecrire des conditions
+#### Ecrire des conditions
 
 ```python
 # Egalité (par exemple d'une chaine de caractère)
-if (variable == "plop") :
+if(variable == "plop"):
 
 # Comparaison de valeur numérique
-if (variable > 3.14) :
+if(variable > 3.14):
 
-# Negation de la precedente condition
-if not (variable > 3.14) :
+# Negation
+if not(variable > 3.14):
 
 # Condition 1 ET condition 2
-if (variable1 == "plop") and (variable2 > 3.14) :
+if(variable1 == "plop") and (variable2 > 3.14):
 
 # Condition 1 OU condition 2
-if (variable1 == "plop") or (variable2 > 3.14) :
+if(variable1 == "plop") or (variable2 > 3.14):
 ```
 
+---
 
+## Exercice 5 : Les conditions
 
-### Exercice 3
+# Attention à l'indentation !
 
-Modifier le programme précédent pour afficher un message différent suivant si un nom particulier est donné !
+# ![](assets/indent.png)
 
+---
 
+## Exercice 5 : Les conditions
 
-Exercice 4 et 5 : les listes et les boucles
------------------------------------
+Ajouter à la fonction `demander_nom()` : si le nom fait moins de 6 caractères, afficher un message, sinon affiche un autre message.
 
+###### _(Vous pouvez utiliser `len(chaine)` pour connaître la longueur d'une chaîne de caractère)_
 
-
-### Les listes
-
-Les listes permettent de contenir des séries d'éléments : 
-```python
-liste = [ "plop", 3.14, "stuff" ]
-
-print(liste[0])
-print(liste[1])
-print(liste[2])
-
-> plop
-> 3.14
-> stuff
-```
-
-
-
-### Les boucles `for`
-
-Les boucles permettent d'exécuter facilement des actions pour chaque élément de listes.
-
-En pseudo-code :
+###### Rappel : syntaxe des conditions
 
 ```python
-POUR CHAQUE element DANS liste
+condition = True
 
-    Afficher(element)
+if(condition == True):
+   print("La condition est vraie !")
+else:
+   print("La condition est fausse !")
+
+print("Ce message s'affiche quoi qu'il arrive")
 ```
 
+---
 
 
-### Les boucles `for`
+### Exercice 6 : Arguments des fonctions
 
-Les boucles permettent d'exécuter facilement des actions pour chaque élément de listes.
+Une fonction peut prendre des arguments.
 
-En Python :
+#### Syntaxe :
 
 ```python
-# Pour chaque element dans L
-for element in liste :
+def battre_des_oeufs_en_neige(nombre_oeuf):
+	print("Il faut battre" + str(nombre_oeuf) + " en neige!")
 
-    # Afficher l'element
-    print(element)
+battre_des_oeufs_en_neige(3)
+battre_des_oeufs_en_neige(5)
 ```
 
-(Comme pour les fonctions et les conditions, 
+`nombre_oeuf` se comporte comme une variable locale valant 3, puis 5.
 
-**attention à l'indentation !**)
+#### Modifier la fonction `demander_nom()` pour que la taille du nom soit donnée en argument
 
+---
 
+### Exercice 7 : Les boucles `while`
 
-Dans certains cas, il peut être utile de générer des listes de chiffres pour itérer de 0 à _n_ ...
+- Les boucles permettent de répéter une série d'instructions.
+- Les boucles `while` répètent des instructions tant qu'une condition est vraie
+
+#### Syntaxe :
 
 ```python
-print(range(10))
-> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+une_variable = " "
+
+while(une_variable != "une valeur"):
+    premiere_instruction()
+    deuxieme_instruction()
+    troisieme_instruction()
 ```
 
+---
 
+### Exercice 7 : Les boucles `while`
 
-### Les boucles `while`
-
-Un autre type de boucle existe et permet d'executer des actions tant qu'une condition est remplie.
+#### Exemple :
 
 ```python
 # Tant que je ne suis pas le meilleur dresseur
-while (bestPokemonTrainer != me) :
-
-    # Capturer plus de pokemons
-    captureMorePokemon()
+while(best_pokemon_trainer != "me"):
+	# Capturer plus de pokemons
+	capture_more_pokemon()
 ```
 
+#### Définir une fonction `reveil_relou()` qui, en boucle :
+- affiche "Tut tut tut"
+- demande un mot de passe à l'utilisateur
+#### tant qu'il n'a pas donné le bon mot de passe
 
+---
 
-### Exercice 4 - mot de passe
+### Exercice 8 : Les boucles `for`
 
-Ecrire un programme qui demande un mot de passe jusqu'à ce que l'utilisateur donne le bon
+- Les boucles `for` permettent de répéter des instructions un nombre donné de fois
 
-
-
-### Exercice 5 - calcul de somme
-
-Initialisez une liste de nombres, par exemple :
-
-4, 8, 15, 16, 23, 42
-
-Utilisez une boucle pour calculer la somme des nombres
-
-
-
-### Exercice 6 - (Opt.) suite de Fibonnaci
-
-Ecrire un programme qui calcule la suite de Fibonnaci jusqu'au rang 100 : 
-0, 1, 1, 2, 3, 5, 8, 13, 21, ...
-
-* Chaque terme est la somme des deux précédents
-   * f(n) = f(n-2) + f(n-1)
-* Vous pouvez utiliser `liste.append(valeur)` pour ajouter une valeur à la fin d'une liste
-
-![](http://www.livescience.com/images/i/000/053/848/i02/golden-rectangle.jpg)
-
-
-
-Résumé
-------
-
-En programmation, on utilise : 
-* **des variables**, qui sont des cases mémoires pour stocker des informations
-* **des fonctions**, qui sont des listes d'instructions avec un nom
-* **des conditions**, pour executer des instructions selon les situations
-* **des listes**, pour stocker des séries d'information ensemble
-* **des boucles**, pour répéter des actions sur différents éléments ou en fonction d'une condition
-
-
-
-Introduction à Pygame
-=====================
-
-
-
-Les librairies
---------------
-
-Un ensemble de fonctions déjà pensées, écrites et packagées, qui servent un but particulier. Dans le cas de Pygame : écrire des jeux vidéos.
-
-On importe les fonctions en utilisant :
-```python
-import someLibrary
+```
+for i in range(10):
+    print(i*7)
 ```
 
+#### Ajouter à la fonction un compteur qui s'incrémentera à chaque mauvais mot de passe, et une boucle `for` qui affichera autant de "Tut tut tut..." que le compteur.
 
+---
 
-Ce que permet Pygame
--------------------
+### Exercice 9 : Les listes
 
-* Afficher une fenêtre
-* Dessiner des formes (lignes, rectangles, ...)
-* Importer et afficher des images à des positions données
-* Détecter les touches de clavier
-* Détecter des collisions entre des objets
-* ...
-
-
-
-Premier programme avec Pygame
------------------------------
+Les listes permettent de stocker une série d'information dans une seule variable
 
 ```python
-import pygame, sys
-from pygame.locals import *
-
-# Initialiser pygame
-pygame.init()
-
-# Initialiser une fenêtre / l’écran de jeu
-ecran = pygame.display.set_mode((400, 300))
-pygame.display.set_caption('Mon jeu!')
-
-# Boucle principale
-while True:
-
-    # Verifier si il y a des événement en attente
-    for event in pygame.event.get():
-
-        # Si l'utilisateur a déclenché la fermeture de la fenêtre
-        if event.type == QUIT:
-            # Désinitialiser pygame
-            pygame.quit()
-            # Sortir du programme
-            sys.exit()
+ma_liste = ["toto", "schpof", "shadok"]
+autre_liste = [3.14, "hackstub", False, 42]
 ```
-
-
-
-Changer la couleur de fond
---------------------------
-
-En utilisant :
-```python
-    couleur = (0,0,255)
-    ecran.fill(couleur)
-```
-
-Modification du programme :
 
 ```python
-# [...]
-
-# Boucle principale
-while True:
-
-    # Remplir l'écran avec une couleur
-    ecran.fill((0,0,255))
-
-    for event in pygame.event.get():
-        # [...]
-    
-    # Rafraîchir l'écran
-    pygame.display.update()
+# Accéder à la valeur d'un élément :
+premier_element = ma_liste[0]
+# Modifier un element
+ma_liste[1] = "bidule"
+# Ajouter un élément à la fin
+ma_liste.append("truc")
 ```
 
+---
 
+### Exercice 9 : Les listes
 
-Les surfaces
-------------
-
-#### Charger une image
-```python
-monImage = pygame.image.load("chaton.jpg").convert_alpha()
-```
-
-#### **Blitter** : Coller une surface sur une auret
-```python
-surfaceDArrivee.blit(surface, (x,y))
-```
-
-
-
-Charger et utiliser des images
-------------------------------
+Les boucles `for` permettent d'itérer facilement sur chacun des éléments d'une liste
 
 ```python
-# Charger des images
-fond = pygame.image.load("fond.png").convert()
-image = pygame.image.load("image.png").convert_alpha()
+ma_liste = ["toto", "schpof", "shadok"]
 
-# Boucle principale
-while True:
-
-    for event ...
-    #[...]
-
-    # Coller l'image de fond
-    ecran.blit(fond, (0,0))
-
-    # Coller l'autre image
-    ecran.blit(image, (50,50))
-
-    # [...]
+for element in ma_liste:
+    print(element)
+```
+```sh
+toto
+schpof
+shadok
 ```
 
+---
+
+### Exercice 9 : Les listes
+
+-
+
+#### Déclarer dans le programme une liste contenant les pièces de la maison et l'afficher après que le réveil ait fini de sonner !
+
+On peut prendre les pièces : chambre, cuisine et salle de bain
 
 
-Les événements
---------------
+---
 
-Des événements sont générés en fonction des appuis des touches et des
-mouvements / clics de la souris.
+### Exercice 10 : Les dictionnaires
 
-Par exemple, bouger la souris génère un événement `MOUSEMOTION`.
+Les dictionnaires sont des structures similaire aux listes, mais indexées par des chaînes de caractères :
 
+```
+age = {
+   "alice": 20,
+   "bob": 18,
+   "charlie": 23
+}
 
+print(age["charlie"])
+```
 
+```
+23
+```
 
-Déplacer une image avec la souris
----------------------------------
+---
+
+### Exercice 10 : Les dictionnaires
 
 ```python
-# [...]
+age = {
+   "Alice": 20,
+   "Bob": 18,
+   "Charlie": 23
+}
 
-# Définir la position initiale de l'image
-image_x = 20
-image_y = 20
-
-# Boucle principale
-while True:
-
-    # Verifier si il y a des événement en attente
-    for event in pygame.event.get():
-
-        if event.type == QUIT:
-            # [...]
-
-        # Si l'utilisateur déplace la souris
-        if event.type == MOUSEMOTION:
-            # Change la position de l'image en stockant dans les variables
-            # la position de la souris récupérée par event.pos x et y
-            image_x = event.pos[0]
-            image_y = event.pos[1]
-    
-    # [...]
-
-    # Dessiner l'image à une certaine position
-    # (qui change suivant la position de la souris)
-    ecran.blit(image, (image_x,image_y))
+age["Charlie"] = 24
+age["Dianne"] = 32
+```
+```python
+for prenom in age:
+   print(prenom + " a " + age[prenom] + " ans")
+```
+```text
+Bob a 18 ans
+Alice a 20 ans
+Dianne a 32 ans
+Charlie a 24 ans
 ```
 
 
+---
 
+### Exercice 10 : Les dictionnaires
 
+#### Créer un dictionnaire avec l'état du personnage après son réveil
+- propre, habillé·e, affamé·e, reveillé·e
+- utiliser des booléens (`True`/`False`)
+
+#### Faire une boucle qui affiche l'état du perso

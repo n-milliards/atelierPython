@@ -1,22 +1,19 @@
 #Atelier Python/pygame
 
 * Fiche ressources sur les [bases de Python](ressourcesBasePython.md)
-* Fiche ressources sur les [fonctions de Pygame](ressourcesPygame.md)
+* pdf des slides du [jour 1](j1/slides/slides.pdf)
+
+## Exercices
+* Fiche d'exercice sur [les bases de la programmation](j1/intituleExos1-10.md)
+* Fiche d'exercice pour [programmer le jeu text-based](j1/intituleTextBased.md)
 </br></br>
 
 ***
 
 
-* [Code du programme pygame](j1/pygame.py)
+* [Aide pour installer les logiciels](j1/helpInstall.md)
 
 
-***
-</br>
-**image pour pygame**
-
-* [images à télécharger](https://autre.space/ressources/ateliers/pygame/assets.zip)
-
-* [images ++](https://autre.space/ressources/ateliers/pygame/plus.zip)
 
 
 
