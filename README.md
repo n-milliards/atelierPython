@@ -36,7 +36,7 @@
 * [images/sprites](https://autre.space/ressources/ateliers/pygame/dossierSprites.zip).
 * [Organigramme du programme tile-based](j3/organigrammeTileBase.pdf)
 * [Map de base](j3/map.asc).
-* [Map Sokoban](j3/sokoban.asc).
+* [Map Sokoban](j3/sokobanMap.asc).
 * [Caractères spéciaux](j3/caractereSpeciaux.txt)
 
 
