@@ -1,0 +1,23 @@
+tile_dict = {
+    "─": "assets/wall-width.png",
+    "│": "assets/wall-height.png",
+    "┬": "assets/wall-all.png",
+    "╵": "assets/wall-top.png",
+    "┌": "assets/wall-righttopbot.png",
+    "┐": "assets/wall-lefttopbot.png",
+    "└": "assets/wall-righttop.png",
+    "┘": "assets/wall-lefttop.png",
+
+    ".": "assets/empty.png",
+    "■": "assets/bloc.png",
+    "□": "assets/interrupteur.png",
+    "▣": "assets/blocActive.png"
+}
+
+
+
+FONT :
+
+╭─┐┌─╮╭─╴┌─╮┌─╴┌─╴╭─╮╷ ╷╶┬╴  ╷╷ ╭╷  ╭╮╮╭╮╷╭─╮┌─╮╭─╮┌─╮╭─╴╶┬╴╷ ╷╷ ╷╷╷╷╷ ╷╷ ╷╶─╮
+├─┤│╶┤│  │ │├─╴├─╴│╶╮├─┤ │   │├┴╮│  │││││││ │├─╯│ │├┬╯╰─╮ │ │ ││╭╯│││╭─╯╰─┤ ─
+╵ ╵╰─╯╰─╴└─╯╰─╴╵  ╰─╯╵ ╵╶┴╴╰─╯╵ ╵╰─╴╵╵╵╵╰╯╰─╯╵  ╰┬╯╵ ╰╶─╯ ╵ ╰─╯╰╯ ╰╯╯╵ ╵╶─╯╰─╴
