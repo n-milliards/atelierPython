@@ -10,8 +10,7 @@ On se propose de programmer un jeu tile-based avec les particularités suivantes
 
 Nous pouvons construire progressivement ce jeu avec les différentes étapes, toutes permettant de valider au fur et à mesure le comportement des fonctionnalités.
 
-0. Preparation de l'ecran
--------------------------
+## 0. Preparation de l'ecran
 
 Préparer les dimensions de l'écran. Nous pouvons par exemple partir du principe que notre map aura une taille de 10x10 tiles, et que chaque tile fait 32 pixel de largeur. On calcule donc la taille en pixel de l'ecran :
 
@@ -27,8 +26,7 @@ hauteurMap_enPixels = hauteurMap_enTile * tailleTile
 
 On utilise ensuite ces dimensions lors de la création de notre fenêtre / écran.
 
-1. La classe personnage
---------------------
+## 1. La classe personnage
 
 ### 1.1 Creation de la classe et chargement d'un premier sprite
 
@@ -83,8 +81,7 @@ Maintenant nous pouvons ajouter la méthode `look` :
 - Ajouter `perso.look("haut")`, `perso.look("bas")`, etc... aux actions à effectuer lorsque l'on appuie sur les touches.
 
 
-2. La classe map
--------------
+## 2. La classe map
 
 ### 2.1 Ecriture de la map
 
@@ -141,8 +138,7 @@ for x in range(10) :
 - Tester cette méthode en appelant `laMap.render()` dans la boucle principale.
 
 
-3. Gestion des collisions
--------------------------
+## 3. Gestion des collisions
 
 Vous devriez maintenant avoir constaté que votre personnage se déplace par-dessus les murs ! Nous voudrions donc qu'il ne puisse par les traverser ... Pour ce faire, dans la méthode `move()` du personnage, nous allons demander à la map si la case de destination est vide, avant de bouger !
 
